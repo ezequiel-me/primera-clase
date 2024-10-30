@@ -1,7 +1,7 @@
 public class Cajero{
-    String nombreDelCliente;
-    int balanceDelCliente;
-    boolean cuentaDeAhorro;
+    private String nombreDelCliente;
+    private int balanceDelCliente;
+    private boolean cuentaDeAhorro;
     public Cajero(String elegirNombreDelCliente, int elBalanceDelCliente){
         nombreDelCliente = elegirNombreDelCliente;
         balanceDelCliente = elBalanceDelCliente;
